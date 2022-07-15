@@ -1,0 +1,19 @@
+p {
+    border: solid 3px orange;
+    background-color: chartreuse;
+}
+
+h1,
+h2 {
+    background-color: red;
+    color: blueviolet;
+}
+
+div {
+    background-color: deeppink;
+    border: 12px dashed blue;
+}
+
+body {
+    background-color: yellow;
+}
