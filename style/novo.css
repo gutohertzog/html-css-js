@@ -1,0 +1,87 @@
+/* CSS geral */
+* {
+    border: 1px dotted purple;
+}
+
+p:first-child {
+    text-decoration: solid underline 5px red;
+}
+
+p:nth-of-type(2) {
+    color: red;
+}
+
+p:hover {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#caixa {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+}
+
+#caixa:checked {}
+
+h1 {
+    background-color: red;
+    color: white;
+}
+
+p+p {
+    text-decoration: line-through solid green;
+}
+
+
+/* CSS da página principal */
+li:nth-child(2n+1) {
+    background-color: coral;
+}
+
+
+/* CSS do FORUM */
+.forum_tabela {
+    border: 2px solid green;
+}
+
+table .linha {
+    background-color: grey;
+}
+
+div>.filha {
+    background-color: turquoise;
+}
+
+
+
+/* CSS da LOJA */
+#p-arq {
+    background-color: yellow;
+}
+
+#btn-envio:active {
+    background-color: red;
+}
+
+
+
+/* CSS da NOTICIA */
+.urgente {
+    background-color: purple;
+    columns: white;
+}
+
+input[type="text"] {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p[class="p-classe"] {
+    text-decoration: overline 3px black;
+}
+
+p.classe2 {
+    text-decoration: overline wavy green 2px;
+}

@@ -1,23 +1,11 @@
-#nome_usuario {
-    background-color: yellow;
+p::before {
+    content: "eu venho antes";
+    background-color: purple;
+    color: white;
 }
 
-#lbl_user {
-    background-color: aqua;
-}
-
-.azul {
-    color: blue;
-}
-
-.azul-fundo {
-    background-color: cornflowerblue;
-}
-
-table tbody tr td {
+p::after {
+    content: "eu venho depois";
     background-color: red;
-}
-
-table tfoot tr td {
-    background-color: yellow;
+    color: white;
 }
